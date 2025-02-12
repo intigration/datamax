@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "name": "OSIsoft-PI",
   "type": "datasource",
-  "id": "osisoftpi-datasource",
+  "id": "influx-datasource",
   "backend": true,
   "executable": "gpx_osipiwebapi",
   "metrics": true,
@@ -10,12 +10,12 @@
   "alerting": true,
   "streaming": false,
   "info": {
-    "description": "Datasource plugin for OSIsoft PI Web API",
+    "description": "TimeSeries DB",
     "author": {
-      "name": "Grid Protection Alliance",
-      "url": "https://github.com/GridProtectionAlliance/osisoftpi-grafana"
+      "name": "Industry Supervisor",
+      "url": "https://supervisor.ca"
     },
-    "keywords": ["OSIsoft", "PI", "Historian", "GPA"],
+    "keywords": ["TimeSeries", "PI", "Historian", "GPA"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"

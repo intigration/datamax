@@ -2,8 +2,8 @@ package main
 
 import (
 	"os"
-
-	"github.com/GridProtectionAlliance/osisoftpi-grafana/pkg/plugin"
+	"github.com/intigration/datamax"
+	// "github.com/GridProtectionAlliance/osisoftpi-grafana/pkg/plugin"
 	"github.com/grafana/grafana-plugin-sdk-go/backend/datasource"
 	"github.com/grafana/grafana-plugin-sdk-go/backend/log"
 )
@@ -17,7 +17,7 @@ func main() {
 	// from Grafana to create different instances of SampleDatasource (per datasource
 	// ID). When datasource configuration changed Dispose method will be called and
 	// new datasource instance created using NewSampleDatasource factory.
-	if err := datasource.Manage("osisoftpi-datasource", plugin.NewPIWebAPIDatasource, datasource.ManageOpts{}); err != nil {
+	if err := datasource.Manage("influx-datasource", datamax.NewInstanceManager, datasource.ManageOpts{}); err != nil {
 		log.DefaultLogger.Error("Manage", "Plugin", err.Error())
 		os.Exit(1)
 	}
