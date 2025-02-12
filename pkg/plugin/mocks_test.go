@@ -15,7 +15,7 @@ import (
 
 	"github.com/grafana/grafana/pkg/infra/httpclient"
 	"github.com/grafana/grafana/pkg/services/featuremgmt"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/models"
 )
 
 type fakeHttpClientProvider struct {

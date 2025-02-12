@@ -18,9 +18,9 @@ import (
 	"github.com/grafana/grafana/pkg/infra/log"
 	"github.com/grafana/grafana/pkg/services/featuremgmt"
 	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/influxql/buffered"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/influxql/querydata"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/influxql/buffered"
+	"github.com/intigration/datamax/influxql/querydata"
+	"github.com/intigration/datamax/models"
 )
 
 const (

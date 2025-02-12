@@ -7,7 +7,7 @@ import (
 
 	"github.com/grafana/grafana-plugin-sdk-go/backend"
 
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/models"
 )
 
 // queryOptions represents datasource configuration options

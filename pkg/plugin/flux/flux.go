@@ -9,7 +9,7 @@ import (
 	"github.com/influxdata/influxdb-client-go/v2/api"
 
 	"github.com/grafana/grafana/pkg/infra/log"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/models"
 )
 
 var (

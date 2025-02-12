@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/grafana/grafana/pkg/infra/log"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/models"
 )
 
 func TestExecutor_createRequest(t *testing.T) {

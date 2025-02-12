@@ -2,6 +2,8 @@ module github.com/intigration/datamax
 
 go 1.23.6
 
+require github.com/grafana/grafana-plugin-sdk-go v0.265.0
+
 require (
 	github.com/BurntSushi/toml v1.4.0 // indirect
 	github.com/chromedp/cdproto v0.0.0-20220208224320-6efb837e6bc2 // indirect
@@ -12,7 +14,6 @@ require (
 	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/grafana/grafana-plugin-sdk-go v0.265.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/magefile/mage v1.15.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect

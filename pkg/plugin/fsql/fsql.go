@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/metadata"
 
 	"github.com/grafana/grafana/pkg/infra/log"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/models"
 )
 
 var (

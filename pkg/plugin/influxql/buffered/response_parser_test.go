@@ -17,8 +17,8 @@ import (
 	"github.com/influxdata/influxql"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/influxql/util"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/influxql/util"
+	"github.com/intigration/datamax/models"
 )
 
 const (

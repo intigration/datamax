@@ -11,10 +11,10 @@ import (
 
 	"github.com/grafana/grafana/pkg/infra/log"
 	"github.com/grafana/grafana/pkg/services/featuremgmt"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/flux"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/fsql"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/influxql"
-	"github.com/grafana/grafana/pkg/tsdb/influxdb/models"
+	"github.com/intigration/datamax/flux"
+	"github.com/intigration/datamax/fsql"
+	"github.com/intigration/datamax/influxql"
+	"github.com/intigration/datamax/models"
 )
 
 const (
